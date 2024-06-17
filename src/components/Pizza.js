@@ -2,7 +2,7 @@ import React from 'react'
 
 const Pizza = (props) => {
   return (
-    <div className='pizza'>
+    <li>
         <div>
             <img src={props.photoName} alt={props.name}/>
         </div>
@@ -10,7 +10,7 @@ const Pizza = (props) => {
             <h3>{props.name}</h3>
             <p>{props.ingredient}</p>
         </div>
-    </div>
+    </li>
   )
 }
 

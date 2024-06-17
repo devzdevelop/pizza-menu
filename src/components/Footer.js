@@ -5,7 +5,6 @@ const Footer = () => {
     const openHour = 9;
     const closeHour = 22;
     const isOpen = hour >= openHour && hour <= closeHour;
-    console.log(hour);
 
     return (
     <footer className='footer'>{new Date().toLocaleDateString()}. {isOpen ? "We are currently open." : "Sorry we're closed."}</footer>
